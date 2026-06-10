@@ -8,13 +8,15 @@ namespace MarsRover.Console
 {
     public class Position
     {
-        public int x { get; set; }
-        public int y { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
         public CompassDirection Facing { get; set; }
+        
+
         public Position(int x, int y, CompassDirection facing)
         {
-            this.x = x;
-            this.y = y;
+            X = x;
+            Y = y;
             Facing = facing;
         }
     }
